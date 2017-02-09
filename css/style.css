@@ -29,66 +29,41 @@ h2 {
 
 .container {
   width: 1200px;
-
+  padding-left: 72px;
+  padding-right: 72px;
 }
 
 .main-navi {
   min-height: 50px;
-  outline: 1px solid #666;
+  outline: 1px solid;
 }
 
-.navi-1 {
-  float: left;
+.navi {
+  display: inline-block;
   width: 240px;
   height: 50px;
+  margin: 0;
+  outline: 1px solid;
+  text-align: center;
 }
 
-.navi-2 {
-  float: left;
-  width: 240px;
-  height: 50px;
-  outline: 1px solid #666;
-}
-
-.navi-3 {
-  float: right;
-  width: 240px;
-  height: 50px;
-}
-
-.navi-4 {
-  float: right;
-  width: 240px;
-  height: 50px;
-  outline: 1px solid #666;
-}
-
-.label-sedona {
-  min-height: 50px;
-}
-
-.vector-object {
-  float: left;
-  width: 145;
-  height: 70px;
-}
-
-.logo-sedona {
+.navi:nth-child(1),
+.navi:nth-child(2),
+.navi:nth-child(3) {
 float: left;
-width: 65px;
-height: 55px;
+}
+
+.navi:nth-child(4),
+.navi:nth-child(5) {
+float: right;
 }
 
 .welcome-to-sedona {
   min-height: 510px;
-  margin 0 auto;
   outline: 1px solid;
-  background: #00cc99;
 }
 
 .sedona-main {
-  float: left;
-  width: 1200px;
   min-height: 215px;
   outline: 1px solid;
 }
@@ -98,7 +73,6 @@ height: 55px;
   width: 400px;
   min-height: 256px;
   background: #66ccff;
-  margin-right: 0;
 }
 
 .pict-sedona-view {
@@ -106,7 +80,6 @@ height: 55px;
   width: 800px;
   min-height: 256px;
   background: #ccccff;
-  margin-right: 0;
 }
 
 .lodging-icon {
@@ -166,10 +139,8 @@ height: 55px;
 }
 
 .looking-for-hotel {
-  width: 1200px;
   min-height: 290px;
   outline: 1px solid;
-  clear:both;
 }
 
 .check-in-and-out-in-date {
@@ -178,36 +149,16 @@ height: 55px;
   background: #669999;
 }
 
-.main-footer {
-  padding-top: 40px;
+.partition {
+  display: table-cell;
+  width: 396px;
+  min-height: 120px;
+  outline: 1px solid;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 35px;
   padding-bottom: 35px;
-  outline: 1px solid;
 }
-
-.visitsedona {
-  float:left;
-  width: 135px;
-  min-height: 50px;
-  margin-left: 135px;
-  outline: 1px solid;
-}
-
-.social {
-  float: left;
-  width: 150px;
-  min-height: 50px;
-  margin-left: 255px;
-  outline: 1px solid;
-}
-
-.copyright-by-htmlacademy {
-  float: right;
-  width: 195px;
-  min-height: 50px;
-  margin-right: 105px;
-  outline: 1px solid;;
-}
-
 
 
 /*стили для catalog.html*/
@@ -215,7 +166,6 @@ height: 55px;
 
 
 .filter-panel {
-  width: 1200px;
   min-height: 220px;
   margin-top: 0;
   outline: 1px solid;
@@ -248,21 +198,28 @@ height: 55px;
   background: #527a7a;
 }
 
-.results {
+.search-results {
   min-height: 540px;
   outline: 1px solid;
 }
 
-.sort-by {
-  width: 1200px;
-  min-height: 90px;
-  background: #66ccff;
+.sorting-panel {
+  min-height: 85px;
+  background: #3399ff;
 }
 
 .found {
   float: left;
-  width: 240px;
+  width: 75px;
   min-height: 85px;
+  outline: 1px solid;
+}
+
+.choosing {
+  float: left;
+  width: 75px;
+  min-height: 85px;
+  margin-left: 50px;
   outline: 1px solid;
 }
 
@@ -296,7 +253,6 @@ height: 55px;
 }
 
 .amara-hotel {
-  width: 1200px;
   min-height: 155px;
   background: #ffcccc;
 }
@@ -317,6 +273,29 @@ height: 55px;
   outline: 1px solid;
 }
 
+.hotel-price-info {
+  width: 180px;
+  min-height: 10px;
+  outline: 1px solid;
+  display: inline-block;
+}
+
+.hotel-type {
+  float: left;
+  width: 75px;
+  min-height: 10px;
+  outline: 1px solid;
+}
+
+.hotel-price {
+  float: right;
+  width: 75px;
+  min-height: 10px;
+  margin-left: 40px;
+  outline: 1px solid;
+  margin: 0;
+}
+
 .reiting {
   float: right;
   width: 110px;
@@ -326,13 +305,11 @@ height: 55px;
 }
 
 .desert-hotel {
-  width: 1200px;
   min-height: 155px;
   background: #ccffcc;
 }
 
 .diablo-villas {
-  width: 1200px;
   min-height: 155px;
   background: #ffcc99;
 }

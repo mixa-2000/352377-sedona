@@ -7,35 +7,28 @@
       </head>
       <body>
         <header class="main-header">
-          <div class="container clearfix">
+          <div class="container">
             <nav class="main-navi">
               <div class="navi">
-                <div class="navi-1">
-                  <a href="#">Информация</a>
-                </div>
-                <div class="navi-2">
-                  <a href="#">Фото и видео</a>
-                </div>
-                <div class="navi-3">
-                  <a href="#">Карта штата</a>
-                </div>
-                <div class="navi-4">
-                  <a href="#">Гостиницы</a>
-                </div>
-                <figure class="label-sedona">
-                  <div class="vector-object">
-                    <img width="70" height="50" src="img/vector-smart-object.png" alt="Вектор">
-                  </div>
-                  <div class="logo-sedona">
-                    <img width="35" height="35" src="img/coat-of-arms.png" alt="Герб Седона">
-                  </div>
-                </figure>
+                <a href="#">Информация</a>
+              </div>
+              <div class="navi">
+                <a href="#">Фото и видео</a>
+              </div>
+              <div class="navi">
+                <a href="index.html"><img width="70" height="50" src="img/logo-sedona.jpg" alt="Герб"></a>
+              </div>
+              <div class="navi">
+                <a href="#">Карта штата</a>
+              </div>
+              <div class="navi">
+                <a href="#">Гостиницы</a>
               </div>
             </nav>
           </div>
         </header>
-          <main class="container">
-            <div class="filter-panel clearfix">
+          <main class="container clearfix">
+            <div class="filter-panel">
               <form action="echo/htmlacademy.ru" method="post">
               <div class="infrastructure">
                 Ифраструктура
@@ -59,14 +52,17 @@
                 Стоимость в сутки(Р):
                 <span class ="from-0">от 0</span>|<span class="to-3000">до 3000</span>
                 <input type="range" min="0" max="3000">
-                <input type="submit" value=Показать>
+                <input type="submit" value="Показать">
               </div>
               </form>
             </div>
-              <div class="results">
-                <div class="sort-by clearfix">
+              <div class="search-results">
+                <div class="sorting-panel">
                   <div class="found">
-                    Найдено:3     Сортировка:
+                    Найдено:3
+                  </div>
+                  <div class="choosing">
+                    Сортировка:
                   </div>
                   <div class="by-price">
                     <a class="active" href="#">По цене</a>
@@ -87,16 +83,29 @@
                     <img  width="120" height="120"  src="img/amara-pict.jpg" alt="Amara resort& spa">
                   </div>
                   <div class="booking-panel">
-                    Amara resort&spa<br>
-                    гостиница   от 4000р.<br>
-                    <a href="#">Подробнее</a>
-                    <a href="#">Забронировать</a>
+                    <div class="hotel-name">
+                      Amara resort&spa
+                    </div>
+                    <div class="hotel-price-info clearfix">
+                      <div class="hotel-type">
+                        гостиница
+                      </div>
+                      <div class="hotel-price">
+                       от 4000р.
+                      </div>
+                    </div>
+                    <div class="booking-buttons">
+                      <a href="#">Подробнее</a>
+                      <a href="#">Забронировать</a>
+                    </div>
                   </div>
                   <div class="reiting">
                     <i class="icon-star">
                       <img  width="15" height="15"  src="img/star.png" alt="иконка-звезда">
                     </i>
+                    <div class="reiting-result">
                     Рейтинг: 8,5
+                    </div>
                   </div>
                 </div>
                 <div class="desert-hotel clearfix">
@@ -104,51 +113,78 @@
                     <img  width="120" height="120"  src="img/desert-hotel.jpg" alt="Desert quail inn">
                   </div>
                   <div class="booking-panel">
-                    Desert quail inn
-                    мотель      от 2000р.
-                    <a href="#">Подробнее</a>
-                    <a href="#">Забронировать</a>
+                    <div class="hotel-name">
+                      Desert quail inn
+                    </div>
+                    <div class="hotel-price-info clearfix">
+                      <div class="hotel-type">
+                        мотель
+                      </div>
+                      <div class="hotel-price">
+                       от 2000р.
+                      </div>
+                    </div>
+                    <div class="booking-buttons">
+                      <a href="#">Подробнее</a>
+                      <a href="#">Забронировать</a>
+                    </div>
                   </div>
                   <div class="reiting">
                     <i class="icon-star">
                       <img  width="15" height="15"  src="img/star.png" alt="иконка-звезда">
                     </i>
+                    <div class="reiting-result">
                     Рейтинг: 8,9
+                    </div>
                   </div>
                 </div>
                 <div class="diablo-villas clearfix">
                   <div class="pict-hotel">
-                    <img  width="70" height="50" src="img/diablo-villas.jpg" alt="Villas at poco diablo">
+                    <img  width="120" height="120" src="img/diablo-villas.jpg" alt="Villas at poco diablo">
                   </div>
                   <div class="booking-panel">
-                    Villas at poco diablo
-                    апартаменты      от 2000р.
-                    <a href="#">Подробнее</a>
-                    <a href="#">Забронировать</a>
+                    <div class="hotel-name">
+                      Villas at poco diablo
+                    </div>
+                    <div class="hotel-price-info clearfix">
+                      <div class="hotel-type">
+                        апартаменты
+                      </div>
+                      <div class="hotel-price">
+                       от 2000р.
+                      </div>
+                    </div>
+                    <div class="booking-buttons">
+                      <a href="#">Подробнее</a>
+                      <a href="#">Забронировать</a>
+                    </div>
                   </div>
                   <div class="reiting">
                     <i class="icon-star">
                       <img  width="15" height="15"  src="img/star.png" alt="иконка-звезда">
                     </i>
+                    <div class="reiting-result">
                     Рейтинг: 9,2
+                    </div>
                   </div>
                 </div>
               </div>
-                <footer class="main-footer clearfix">
-                  <div class="visitsedona">
-                    <a class ="social-btn social-btn-visitsedona" href="#">#visitesedona</a>
+          </main>
+            <footer class="main-footer">
+                <div class="container">
+                  <div class="partition">
+                    <a href="#">#visitesedona</a>
                   </div>
-                  <div class="social">
-                    <a class="social-btn social-btn-twit" href="#">Твитер</a>
-                    <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-                    <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+                  <div class="partition">
+                    <a href="#">твитер</a>
+                    <a href="#">фейсбук</a>
+                    <a href="#">инстаграм</a>
                   </div>
-                  <div class="copyright-by-htmlacademy">
+                  <div class="partition">
                     Website by
-                    <img width="10" height="10" src="academylabel.jpg" alt="Фирменный знак">
-                    <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+                    <a href="index.html"><img width="113" height="39" src="img/academyhtml.png" alt="Фирменный знак"></a>
                   </div>
-                </footer>
-        </main>
+                </div>
+            </footer>
       </body>
     </html>
