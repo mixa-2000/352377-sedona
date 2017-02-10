@@ -1,11 +1,5 @@
 html,
 body {
-  width: 1200px;
-  margin: auto;
-  padding: 0;
-}
-
-body {
   font-size: 14px;
   line-height: 21px;
   color: #333333;
@@ -19,18 +13,6 @@ h2 {
   color: #000000;
   font-weight: bold;
   font-family: "PT Sans", Arial, Helvetica;
-}
-
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.container {
-  width: 1200px;
-  padding-left: 72px;
-  padding-right: 72px;
 }
 
 .main-navi {
@@ -59,6 +41,7 @@ float: right;
 
 .welcome-to-sedona {
   min-height: 510px;
+  /*margin: 0 30px;*/
   outline: 1px solid;
 }
 
@@ -271,4 +254,17 @@ float: right;
   min-height: 150px;
   padding-right: 72px;
   outline: 1px solid;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 72px;
+  margin: 0 auto;
+  outline: 1px solid red;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
