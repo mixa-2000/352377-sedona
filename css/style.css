@@ -1,7 +1,7 @@
 html,
 body {
   width: 1200px;
-  margin: 0 auto;
+  margin: auto;
   padding: 0;
 }
 
@@ -42,7 +42,6 @@ h2 {
   display: inline-block;
   width: 240px;
   height: 50px;
-  margin: 0;
   outline: 1px solid;
   text-align: center;
 }
@@ -82,25 +81,11 @@ float: right;
   background: #ccccff;
 }
 
-.lodging-icon {
+.icon {
   float: left;
   width: 400px;
   min-height: 330px;
-  background: #3399ff;
-}
-
-.meal-icon {
-  float: left;
-  width: 400px;
-  min-height: 330px;
-  background: #66ccff;
-}
-
-.souvenirs-icon {
-  float: right;
-  width: 400px;
-  min-height: 330px;
-  background: #3399ff;
+  outline: 1px solid;
 }
 
 .pict-diablo-bridge {
@@ -117,22 +102,8 @@ float: right;
   background: #66ccff;
 }
 
-.reason-3 {
+.reason-block {
   float: left;
-  width: 400px;
-  min-height: 330px;
-  background: #3399ff;
-}
-
-.reason-4 {
-  float: left;
-  width: 400px;
-  min-height: 330px;
-  background: #66ccff;
-}
-
-.reason-5 {
-  float: right;
   width: 400px;
   min-height: 330px;
   background: #3399ff;
@@ -151,7 +122,7 @@ float: right;
 
 .partition {
   display: table-cell;
-  width: 396px;
+  width: 400px;
   min-height: 120px;
   outline: 1px solid;
   text-align: center;
@@ -167,17 +138,16 @@ float: right;
 
 .filter-panel {
   min-height: 220px;
-  margin-top: 0;
   outline: 1px solid;
 }
 
 .infrastructure {
   float: left;
-  margin-left: 75px;
   margin-top: 35px;
+  padding-left: 72px;
   width: 140px;
   min-height: 150px;
-  background: #527a7a;
+  outline: 1px solid;
 }
 
 .lodging-kind {
@@ -186,26 +156,26 @@ float: right;
   margin-top: 35px;
   width: 140px;
   min-height: 150px;
-  background: #527a7a;
+  outline: 1px solid;
 }
 
 .choose-price {
   float: right;
   width: 330px;
   height: 155px;
-  margin-right: 75px;
   margin-top: 35px;
-  background: #527a7a;
+  outline: 1px solid;
 }
 
 .search-results {
   min-height: 540px;
+  padding-left: 72px;
   outline: 1px solid;
 }
 
 .sorting-panel {
   min-height: 85px;
-  background: #3399ff;
+  outline: 1px solid;
 }
 
 .found {
@@ -248,20 +218,19 @@ float: right;
   float: right;
   width: 40px;
   min-height: 85px;
-  margin-right: 75px;
+  padding-right: 72px;
   outline: 1px solid;
 }
 
-.amara-hotel {
+.hotel-result {
   min-height: 155px;
-  background: #ffcccc;
+  outline: 1px solid;
 }
 
 .pict-hotel {
   float: left;
   width: 135px;
   min-height: 150px;
-  margin-left: 75px;
   outline: 1px solid;
 }
 
@@ -300,16 +269,6 @@ float: right;
   float: right;
   width: 110px;
   min-height: 150px;
-  margin-right: 75px;
+  padding-right: 72px;
   outline: 1px solid;
-}
-
-.desert-hotel {
-  min-height: 155px;
-  background: #ccffcc;
-}
-
-.diablo-villas {
-  min-height: 155px;
-  background: #ffcc99;
 }
