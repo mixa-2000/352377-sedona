@@ -20,28 +20,51 @@ h2 {
   outline: 1px solid;
 }
 
-.navi {
+.main-menu{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-menu li{
   display: inline-block;
   width: 240px;
-  height: 50px;
+  margin-left: 36px;
   outline: 1px solid;
-  text-align: center;
+  vertical-align: top;
 }
 
-.navi:nth-child(1),
-.navi:nth-child(2),
-.navi:nth-child(3) {
-float: left;
+.main-menu a {
+  display: block;
+  text-decoration: none;
+  padding: 16px 70px;
 }
 
-.navi:nth-child(4),
-.navi:nth-child(5) {
-float: right;
+.left-nav {
+  float: left;
+}
+
+.right-nav {
+  float: right;
+}
+
+.main-menu a:hover{
+  color: #766357;
+}
+
+.navi-logo {
+  position: relative;
+  left: 510px;
+  top: -53px;
+  width: 140px;
+  min-height: 70px;
+  display: block;
+  outline: 1px solid blue;
 }
 
 .welcome-to-sedona {
   min-height: 510px;
-  /*margin: 0 30px;*/
+  margin: 0 30px;
   outline: 1px solid;
 }
 
